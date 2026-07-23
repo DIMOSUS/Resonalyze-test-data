@@ -1,0 +1,304 @@
+{
+  "format": "resonalyze-virtual-crossover",
+  "version": 5,
+  "savedAtUtc": "2026-07-22T19:43:11.1810633+00:00",
+  "channels": [],
+  "pairs": [
+    {
+      "mono": true,
+      "left": {
+        "enabled": true,
+        "bypass": false,
+        "displayName": "subwoofer.json",
+        "sourceFilePath": "D:\\hobby\\AMP\\v3\\subwoofer.json",
+        "historyEntryId": null,
+        "gainDb": -10,
+        "delayMs": 12.12,
+        "invertPolarity": false,
+        "crossoverKind": "LowPass",
+        "lowPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 80,
+          "slopeDbPerOctave": 36,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 10,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 0.1
+        },
+        "allPassType": "Off",
+        "allPassFrequencyHz": 10,
+        "allPassQ": 1.7,
+        "peqPreampDb": 0,
+        "peqBands": [],
+        "peqSourceName": null,
+        "showRawCurve": false,
+        "showProcessedCurve": true,
+        "hasSource": true
+      },
+      "right": {
+        "enabled": true,
+        "bypass": false,
+        "displayName": "",
+        "sourceFilePath": null,
+        "historyEntryId": null,
+        "gainDb": 0,
+        "delayMs": 0,
+        "invertPolarity": false,
+        "crossoverKind": "Off",
+        "lowPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2000,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 0
+        },
+        "highPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2000,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 0
+        },
+        "allPassType": "Off",
+        "allPassFrequencyHz": 2000,
+        "allPassQ": 1,
+        "peqPreampDb": 0,
+        "peqBands": [],
+        "peqSourceName": null,
+        "showRawCurve": false,
+        "showProcessedCurve": true,
+        "hasSource": false
+      }
+    },
+    {
+      "mono": false,
+      "left": {
+        "enabled": true,
+        "bypass": false,
+        "displayName": "l midbass.json",
+        "sourceFilePath": "D:\\hobby\\AMP\\v3\\l midbass.json",
+        "historyEntryId": null,
+        "gainDb": -6,
+        "delayMs": 10.82,
+        "invertPolarity": false,
+        "crossoverKind": "BandPass",
+        "lowPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 200,
+          "slopeDbPerOctave": 36,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 80,
+          "slopeDbPerOctave": 36,
+          "rippleDb": 0.1
+        },
+        "allPassType": "Off",
+        "allPassFrequencyHz": 2000,
+        "allPassQ": 1,
+        "peqPreampDb": 0,
+        "peqBands": [],
+        "peqSourceName": null,
+        "showRawCurve": false,
+        "showProcessedCurve": true,
+        "hasSource": true
+      },
+      "right": {
+        "enabled": true,
+        "bypass": false,
+        "displayName": "r midbass.json",
+        "sourceFilePath": "D:\\hobby\\AMP\\v3\\r midbass.json",
+        "historyEntryId": null,
+        "gainDb": -6,
+        "delayMs": 0,
+        "invertPolarity": false,
+        "crossoverKind": "BandPass",
+        "lowPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 200,
+          "slopeDbPerOctave": 36,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 80,
+          "slopeDbPerOctave": 36,
+          "rippleDb": 0.1
+        },
+        "allPassType": "Off",
+        "allPassFrequencyHz": 330,
+        "allPassQ": 3.5,
+        "peqPreampDb": 0,
+        "peqBands": [],
+        "peqSourceName": null,
+        "showRawCurve": false,
+        "showProcessedCurve": true,
+        "hasSource": true
+      }
+    },
+    {
+      "mono": false,
+      "left": {
+        "enabled": true,
+        "bypass": false,
+        "displayName": "l mid.json",
+        "sourceFilePath": "D:\\hobby\\AMP\\v3\\l mid.json",
+        "historyEntryId": null,
+        "gainDb": -2.8,
+        "delayMs": 14.44,
+        "invertPolarity": true,
+        "crossoverKind": "BandPass",
+        "lowPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 1500,
+          "slopeDbPerOctave": 36,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 220,
+          "slopeDbPerOctave": 36,
+          "rippleDb": 0.1
+        },
+        "allPassType": "Off",
+        "allPassFrequencyHz": 2000,
+        "allPassQ": 1,
+        "peqPreampDb": 0,
+        "peqBands": [],
+        "peqSourceName": null,
+        "showRawCurve": false,
+        "showProcessedCurve": true,
+        "hasSource": true
+      },
+      "right": {
+        "enabled": true,
+        "bypass": false,
+        "displayName": "r mid.json",
+        "sourceFilePath": "D:\\hobby\\AMP\\v3\\r mid.json",
+        "historyEntryId": null,
+        "gainDb": 0,
+        "delayMs": 12.76,
+        "invertPolarity": true,
+        "crossoverKind": "BandPass",
+        "lowPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 1500,
+          "slopeDbPerOctave": 36,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 220,
+          "slopeDbPerOctave": 36,
+          "rippleDb": 0.1
+        },
+        "allPassType": "Off",
+        "allPassFrequencyHz": 420,
+        "allPassQ": 1.4,
+        "peqPreampDb": 0,
+        "peqBands": [],
+        "peqSourceName": null,
+        "showRawCurve": false,
+        "showProcessedCurve": true,
+        "hasSource": true
+      }
+    },
+    {
+      "mono": false,
+      "left": {
+        "enabled": true,
+        "bypass": false,
+        "displayName": "l twit.json",
+        "sourceFilePath": "D:\\hobby\\AMP\\v3\\l twit.json",
+        "historyEntryId": null,
+        "gainDb": -9.4,
+        "delayMs": 14.9,
+        "invertPolarity": false,
+        "crossoverKind": "HighPass",
+        "lowPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2000,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 1900,
+          "slopeDbPerOctave": 36,
+          "rippleDb": 0.1
+        },
+        "allPassType": "Off",
+        "allPassFrequencyHz": 2000,
+        "allPassQ": 1,
+        "peqPreampDb": 0,
+        "peqBands": [],
+        "peqSourceName": null,
+        "showRawCurve": false,
+        "showProcessedCurve": true,
+        "hasSource": true
+      },
+      "right": {
+        "enabled": true,
+        "bypass": false,
+        "displayName": "r twit.json",
+        "sourceFilePath": "D:\\hobby\\AMP\\v3\\r twit.json",
+        "historyEntryId": null,
+        "gainDb": -6.4,
+        "delayMs": 13.23,
+        "invertPolarity": false,
+        "crossoverKind": "HighPass",
+        "lowPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2000,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 1900,
+          "slopeDbPerOctave": 36,
+          "rippleDb": 0.1
+        },
+        "allPassType": "Off",
+        "allPassFrequencyHz": 220,
+        "allPassQ": 0.7,
+        "peqPreampDb": 0,
+        "peqBands": [],
+        "peqSourceName": null,
+        "showRawCurve": false,
+        "showProcessedCurve": true,
+        "hasSource": true
+      }
+    }
+  ],
+  "stereoSceneOffsetMs": 0.27,
+  "activeSideRight": false,
+  "showSumCurve": true,
+  "showLossCurve": true,
+  "showPhaseView": false,
+  "showImpulseView": true,
+  "smoothingInverseOctaves": 6,
+  "psychoacousticSmoothing": true,
+  "dspPlotMode": "Magnitude",
+  "dspPlotCorrelationView": true,
+  "correlationPairIndex": 1,
+  "calibrationMode": "Degrees90",
+  "phaseGateLeft": {
+    "offsetMs": 9.41,
+    "detrendMs": 20
+  },
+  "phaseGateRight": {
+    "offsetMs": 9.95,
+    "detrendMs": 15.75
+  },
+  "phaseGateOffsetMs": null,
+  "phaseDetrendMs": null,
+  "phaseGateLeftMs": 5,
+  "phaseGatePlateauMs": 20,
+  "phaseGateRightMs": 20,
+  "phaseWindowMode": "FrequencyDependent",
+  "phaseFdwCycles": 4,
+  "phaseDetrendMode": "Manual"
+}
