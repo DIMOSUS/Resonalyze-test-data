@@ -1,7 +1,7 @@
 {
   "format": "resonalyze-virtual-crossover",
-  "version": 5,
-  "savedAtUtc": "2026-08-16T09:20:02.2612783+00:00",
+  "version": 6,
+  "savedAtUtc": "2026-08-20T12:04:55.3998534+00:00",
   "channels": [],
   "pairs": [
     {
@@ -646,15 +646,15 @@
   "smoothingInverseOctaves": 6,
   "psychoacousticSmoothing": true,
   "dspPlotMode": "Magnitude",
-  "dspPlotCorrelationView": false,
-  "correlationPairIndex": 2,
-  "calibrationMode": "Degrees90",
+  "dspPlotCorrelationView": true,
+  "correlationPairIndex": 0,
+  "calibrationId": "90deg",
   "phaseGateLeft": {
     "offsetMs": null,
     "detrendMs": 18.78
   },
   "phaseGateRight": {
-    "offsetMs": 15.06,
+    "offsetMs": null,
     "detrendMs": 15.08
   },
   "phaseGateOffsetMs": null,
