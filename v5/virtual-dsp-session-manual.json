@@ -1,0 +1,668 @@
+{
+  "format": "resonalyze-virtual-crossover",
+  "version": 5,
+  "savedAtUtc": "2026-08-16T09:20:02.2612783+00:00",
+  "channels": [],
+  "pairs": [
+    {
+      "mono": true,
+      "collapsed": false,
+      "left": {
+        "enabled": true,
+        "bypass": false,
+        "displayName": "subb.json",
+        "sourceFilePath": "D:\\hobby\\AMP\\v5_exp\\subb.json",
+        "sourceRelativePath": "subb.json",
+        "historyEntryId": null,
+        "gainDb": 0,
+        "delayMs": 0,
+        "invertPolarity": false,
+        "crossoverKind": "LowPass",
+        "lowPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 65,
+          "slopeDbPerOctave": 36,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 10,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 0.1
+        },
+        "allPassType": "Off",
+        "allPassFrequencyHz": 10,
+        "allPassQ": 1.7,
+        "peqPreampDb": 0,
+        "peqBands": [
+          {
+            "frequencyHz": 31,
+            "q": 2.6,
+            "gainDb": -3.7,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 22,
+            "q": 3.9,
+            "gainDb": -2.5,
+            "type": "Peaking",
+            "isTransparent": false
+          }
+        ],
+        "peqSourceName": "bass.txt",
+        "showRawCurve": false,
+        "showProcessedCurve": true,
+        "hasSource": true
+      },
+      "right": {
+        "enabled": true,
+        "bypass": false,
+        "displayName": "",
+        "sourceFilePath": null,
+        "sourceRelativePath": null,
+        "historyEntryId": null,
+        "gainDb": 0,
+        "delayMs": 0,
+        "invertPolarity": false,
+        "crossoverKind": "Off",
+        "lowPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2000,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2000,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 0.1
+        },
+        "allPassType": "Off",
+        "allPassFrequencyHz": 2000,
+        "allPassQ": 1,
+        "peqPreampDb": 0,
+        "peqBands": [],
+        "peqSourceName": null,
+        "showRawCurve": false,
+        "showProcessedCurve": true,
+        "hasSource": false
+      }
+    },
+    {
+      "mono": false,
+      "collapsed": false,
+      "left": {
+        "enabled": true,
+        "bypass": false,
+        "displayName": "l bass.json",
+        "sourceFilePath": "D:\\hobby\\AMP\\v5_exp\\l bass.json",
+        "sourceRelativePath": "l bass.json",
+        "historyEntryId": null,
+        "gainDb": 0,
+        "delayMs": 2.34,
+        "invertPolarity": true,
+        "crossoverKind": "BandPass",
+        "lowPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 165,
+          "slopeDbPerOctave": 48,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 65,
+          "slopeDbPerOctave": 36,
+          "rippleDb": 0.1
+        },
+        "allPassType": "Off",
+        "allPassFrequencyHz": 2000,
+        "allPassQ": 1,
+        "peqPreampDb": 0,
+        "peqBands": [
+          {
+            "frequencyHz": 126,
+            "q": 2.6,
+            "gainDb": -13.8,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 250,
+            "q": 3.4,
+            "gainDb": -6,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 104,
+            "q": 4.5,
+            "gainDb": -2.6,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 149,
+            "q": 8,
+            "gainDb": -2,
+            "type": "Peaking",
+            "isTransparent": false
+          }
+        ],
+        "peqSourceName": "l bass.txt",
+        "showRawCurve": false,
+        "showProcessedCurve": true,
+        "hasSource": true
+      },
+      "right": {
+        "enabled": true,
+        "bypass": false,
+        "displayName": "r bass.json",
+        "sourceFilePath": "D:\\hobby\\AMP\\v5_exp\\r bass.json",
+        "sourceRelativePath": "r bass.json",
+        "historyEntryId": null,
+        "gainDb": 0,
+        "delayMs": 0.76,
+        "invertPolarity": true,
+        "crossoverKind": "BandPass",
+        "lowPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 165,
+          "slopeDbPerOctave": 48,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 65,
+          "slopeDbPerOctave": 36,
+          "rippleDb": 0.1
+        },
+        "allPassType": "Off",
+        "allPassFrequencyHz": 330,
+        "allPassQ": 3.5,
+        "peqPreampDb": 0,
+        "peqBands": [
+          {
+            "frequencyHz": 142,
+            "q": 2,
+            "gainDb": -9.6,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 263,
+            "q": 4.4,
+            "gainDb": -3,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 81,
+            "q": 5.6,
+            "gainDb": -2.6,
+            "type": "Peaking",
+            "isTransparent": false
+          }
+        ],
+        "peqSourceName": "r bass.txt",
+        "showRawCurve": false,
+        "showProcessedCurve": true,
+        "hasSource": true
+      }
+    },
+    {
+      "mono": false,
+      "collapsed": false,
+      "left": {
+        "enabled": true,
+        "bypass": false,
+        "displayName": "l mid.json",
+        "sourceFilePath": "D:\\hobby\\AMP\\v5_exp\\l mid.json",
+        "sourceRelativePath": "l mid.json",
+        "historyEntryId": null,
+        "gainDb": -1,
+        "delayMs": 12.86,
+        "invertPolarity": false,
+        "crossoverKind": "BandPass",
+        "lowPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 1500,
+          "slopeDbPerOctave": 48,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 165,
+          "slopeDbPerOctave": 48,
+          "rippleDb": 0.1
+        },
+        "allPassType": "Off",
+        "allPassFrequencyHz": 2000,
+        "allPassQ": 1,
+        "peqPreampDb": 0,
+        "peqBands": [
+          {
+            "frequencyHz": 261,
+            "q": 1.4,
+            "gainDb": -10.4,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1906,
+            "q": 3.5,
+            "gainDb": -8.1,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 516,
+            "q": 2.4,
+            "gainDb": -6.2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1646,
+            "q": 6.8,
+            "gainDb": -3.8,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 177,
+            "q": 3.5,
+            "gainDb": -3.7,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 2237,
+            "q": 5.5,
+            "gainDb": -3.1,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 417,
+            "q": 5.2,
+            "gainDb": -2.9,
+            "type": "Peaking",
+            "isTransparent": false
+          }
+        ],
+        "peqSourceName": "l mid.txt",
+        "showRawCurve": false,
+        "showProcessedCurve": true,
+        "hasSource": true
+      },
+      "right": {
+        "enabled": true,
+        "bypass": false,
+        "displayName": "r mid.json",
+        "sourceFilePath": "D:\\hobby\\AMP\\v5_exp\\r mid.json",
+        "sourceRelativePath": "r mid.json",
+        "historyEntryId": null,
+        "gainDb": 0,
+        "delayMs": 11.12,
+        "invertPolarity": false,
+        "crossoverKind": "BandPass",
+        "lowPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 1500,
+          "slopeDbPerOctave": 48,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 165,
+          "slopeDbPerOctave": 48,
+          "rippleDb": 0.1
+        },
+        "allPassType": "Off",
+        "allPassFrequencyHz": 1210,
+        "allPassQ": 3.4,
+        "peqPreampDb": 0,
+        "peqBands": [
+          {
+            "frequencyHz": 1713,
+            "q": 4,
+            "gainDb": -8.9,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 173,
+            "q": 2.3,
+            "gainDb": -7.6,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 683,
+            "q": 5.4,
+            "gainDb": -6.3,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 251,
+            "q": 4.6,
+            "gainDb": -3.8,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 2257,
+            "q": 5.7,
+            "gainDb": -3.2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1519,
+            "q": 7.1,
+            "gainDb": -1.4,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 2882,
+            "q": 5.9,
+            "gainDb": -2.1,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 437,
+            "q": 7.5,
+            "gainDb": -1.4,
+            "type": "Peaking",
+            "isTransparent": false
+          }
+        ],
+        "peqSourceName": "r mid.txt",
+        "showRawCurve": false,
+        "showProcessedCurve": true,
+        "hasSource": true
+      }
+    },
+    {
+      "mono": false,
+      "collapsed": false,
+      "left": {
+        "enabled": true,
+        "bypass": false,
+        "displayName": "l tw.json",
+        "sourceFilePath": "D:\\hobby\\AMP\\v5_exp\\l tw.json",
+        "sourceRelativePath": "l tw.json",
+        "historyEntryId": null,
+        "gainDb": -1,
+        "delayMs": 13.07,
+        "invertPolarity": false,
+        "crossoverKind": "HighPass",
+        "lowPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2000,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 1700,
+          "slopeDbPerOctave": 48,
+          "rippleDb": 0.1
+        },
+        "allPassType": "Off",
+        "allPassFrequencyHz": 2000,
+        "allPassQ": 1,
+        "peqPreampDb": 0,
+        "peqBands": [
+          {
+            "frequencyHz": 1637,
+            "q": 1.8,
+            "gainDb": -13.9,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 8764,
+            "q": 0.9,
+            "gainDb": -13.1,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 2473,
+            "q": 3.1,
+            "gainDb": -8.9,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 4328,
+            "q": 4.1,
+            "gainDb": -5.2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1145,
+            "q": 7.1,
+            "gainDb": -4.3,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 3168,
+            "q": 6.9,
+            "gainDb": -3.7,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 735,
+            "q": 4.7,
+            "gainDb": -3.2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1418,
+            "q": 6.9,
+            "gainDb": -3.4,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 13668,
+            "q": 3.9,
+            "gainDb": -2.8,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 19680,
+            "q": 6.2,
+            "gainDb": -2.8,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 11060,
+            "q": 4.3,
+            "gainDb": 3,
+            "type": "Peaking",
+            "isTransparent": false
+          }
+        ],
+        "peqSourceName": "l tw.txt",
+        "showRawCurve": false,
+        "showProcessedCurve": true,
+        "hasSource": true
+      },
+      "right": {
+        "enabled": true,
+        "bypass": false,
+        "displayName": "r tw.json",
+        "sourceFilePath": "D:\\hobby\\AMP\\v5_exp\\r tw.json",
+        "sourceRelativePath": "r tw.json",
+        "historyEntryId": null,
+        "gainDb": 0,
+        "delayMs": 11.39,
+        "invertPolarity": false,
+        "crossoverKind": "HighPass",
+        "lowPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2000,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 1700,
+          "slopeDbPerOctave": 48,
+          "rippleDb": 0.1
+        },
+        "allPassType": "Off",
+        "allPassFrequencyHz": 1010,
+        "allPassQ": 3.6,
+        "peqPreampDb": 0,
+        "peqBands": [
+          {
+            "frequencyHz": 3017,
+            "q": 2,
+            "gainDb": -14,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 11931,
+            "q": 0.9,
+            "gainDb": -9.2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1296,
+            "q": 2.8,
+            "gainDb": -5.8,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 6214,
+            "q": 4,
+            "gainDb": -5.2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 835,
+            "q": 4.7,
+            "gainDb": -4.8,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1925,
+            "q": 5.5,
+            "gainDb": -6.4,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 708,
+            "q": 5.3,
+            "gainDb": -3.3,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 18165,
+            "q": 2.9,
+            "gainDb": -4,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 4986,
+            "q": 6.2,
+            "gainDb": -2.7,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 7431,
+            "q": 8.3,
+            "gainDb": -1.8,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 2822,
+            "q": 6.3,
+            "gainDb": -3.4,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 2323,
+            "q": 5,
+            "gainDb": 3.2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 3533,
+            "q": 4.8,
+            "gainDb": 1.8,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 13940,
+            "q": 7.4,
+            "gainDb": 1.7,
+            "type": "Peaking",
+            "isTransparent": false
+          }
+        ],
+        "peqSourceName": "r tw.txt",
+        "showRawCurve": false,
+        "showProcessedCurve": true,
+        "hasSource": true
+      }
+    }
+  ],
+  "stereoSceneOffsetMs": 0.26,
+  "stereoRightHandDrive": false,
+  "stereoLevelDifferenceDb": -1,
+  "activeSideRight": false,
+  "showSumCurve": true,
+  "showLossCurve": true,
+  "showPhaseView": false,
+  "showImpulseView": false,
+  "smoothingInverseOctaves": 6,
+  "psychoacousticSmoothing": true,
+  "dspPlotMode": "Magnitude",
+  "dspPlotCorrelationView": false,
+  "correlationPairIndex": 2,
+  "calibrationMode": "Degrees90",
+  "phaseGateLeft": {
+    "offsetMs": null,
+    "detrendMs": 18.78
+  },
+  "phaseGateRight": {
+    "offsetMs": 15.06,
+    "detrendMs": 15.08
+  },
+  "phaseGateOffsetMs": null,
+  "phaseDetrendMs": null,
+  "phaseGateLeftMs": 5,
+  "phaseGatePlateauMs": 50,
+  "phaseGateRightMs": 20,
+  "phaseWindowMode": "FrequencyDependent",
+  "phaseFdwCycles": 6,
+  "phaseDetrendMode": "Manual"
+}

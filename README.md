@@ -2,15 +2,39 @@
 
 Real acoustic measurements backing [Resonalyze](https://github.com/DIMOSUS/Resonalyze)'s
 regression tests, consumed by the main repository as the `assets/test_data`
-submodule.
+submodule. The current measurement set is v5. Earlier datasets are retained
+for historical and regression-testing purposes.
 
-A 4-way stereo system measured with loopback-referenced exponential sweeps
-(44.1 kHz, 4 averages): transfer impulse responses of the subwoofer
-(`sub woof.json`, `sub woof closed window.json`), woofers, mids and tweeters
-of both channels, in Resonalyze's native impulse-response JSON format
-(`transferRealSamples` + `transferCoherence`), plus `left_channel.json` —
-the Virtual DSP crossover project that pairs the left-channel drivers
-(sub LP 80 / woof BP 80-175 / mid BP 175-1300 / twr HP 1800, BW24).
+## v5: current in-car measurement dataset
+
+`v5/` contains measurements made in a BMW F30 sedan. The front drivers use
+their factory locations: tweeters in the door mirror sail panels, midrange
+drivers in the doors, and woofers beneath the front seats. The subwoofer is
+installed in a stealth enclosure in the trunk. The center pass-through in the
+rear seat between the cabin and the trunk was open during the measurements.
+
+System configuration:
+
+- Hertz MP 28.3 Pro tweeters;
+- Audison Prima AP 4 midrange drivers;
+- HELIX Ci5 S200FM-S2 under-seat woofers;
+- Focal P25F subwoofer;
+- Trioma MOST-SPDIF Link;
+- AMP Panacea v2;
+- Alpine MRV-M500.
+
+The root-level measurements and the v3 dataset below are superseded by v5 and
+remain available for history and regression coverage.
+
+## Historical root dataset
+
+The original 4-way stereo system was measured with loopback-referenced
+exponential sweeps (44.1 kHz, 4 averages): transfer impulse responses of the
+subwoofer (`sub woof.json`, `sub woof closed window.json`), woofers, mids and
+tweeters of both channels, in Resonalyze's native impulse-response JSON format
+(`transferRealSamples` + `transferCoherence`), plus `left_channel.json` — the
+Virtual DSP crossover project that pairs the left-channel drivers (sub LP 80 /
+woof BP 80-175 / mid BP 175-1300 / twr HP 1800, BW24).
 
 The woofer/mid pair pins the first-arrival pre-ringing regression: in the
 shared 87.5-350 Hz band the woofer's direct sound arrives at 11.466 ms,
@@ -44,3 +68,16 @@ entries — either mirror that layout or edit the paths). It replays all
 sessions headlessly, sweeps a 16-config midbass/mid crossover matrix,
 probes gain sensitivity and junction sub-band landscapes; every test
 returns silently when the data is absent, so the file is CI-safe.
+
+## License
+
+The measurement data, associated metadata/session files, and documentation are
+licensed under [Creative Commons Attribution 4.0 International](LICENSE.md).
+When reusing or referring to the measurements, please credit:
+
+> Resonalyze test data by DIMOSUS,
+> https://github.com/DIMOSUS/Resonalyze-test-data,
+> licensed under CC BY 4.0.
+
+Indicate if you modified or processed the data. The C# validation harness is
+not covered by this data license.
